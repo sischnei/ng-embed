@@ -135,7 +135,7 @@
 
                 function urlEmbed(str) {
 
-                    var urlRegex = /\b(?:(https?|ftp|file):\/\/|www\.)[-A-Z0-9+()&@$#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|]/ig;
+                    var urlRegex = /\b(?:(https?|ftp|file):\/\/|www\.)[-A-Z0-9+()&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|]/ig;
                     var protocolRegex = /^[a-z]+\:\/\//i;
 
                     var strReplaced = str.replace(urlRegex, function (text) {
